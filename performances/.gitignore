@@ -1,0 +1,8 @@
+*.so
+*.pyc
+optimized/
+piloptimized/
+gen/
+
+perf.h
+perf.c

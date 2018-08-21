@@ -1,0 +1,1 @@
+go build -buildmode=c-shared -o piuma.so
