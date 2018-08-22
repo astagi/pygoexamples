@@ -32,8 +32,8 @@ For the Go implementation run
     Time taken in seconds - 0.014990091323852539
 
     (perf)➜  performances python purethreads.py
-    Done! My final value is 0.0
-    Done! My final value is 0.0
+    Done! My final value is 0
+    Done! My final value is 0
     Time taken in seconds - 5.691630840301514
 
     (perf)➜  performances python pureperfthreads.py
