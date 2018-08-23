@@ -4,7 +4,7 @@ from threading import Thread
 COUNT = 50000000
 
 def countdown(n):
-    while n>0:
+    while n > 0:
         n -= 1
     print ('Done! My final value is {0}'.format(n))
 

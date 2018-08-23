@@ -13,11 +13,6 @@ import (
 	"fmt"
 )
 
-func cnt(n uint) {
-	for n > 0 {
-		n -= 1
-	}
-}
 
 //export Countdown
 func Countdown() {
