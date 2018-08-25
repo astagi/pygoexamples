@@ -4,9 +4,9 @@
 static PyObject *
 sum(PyObject *self, PyObject *args)
 {
-    const int a, b;
+    const long a, b;
 
-    if (!PyArg_ParseTuple(args, "ii", &a, &b))
+    if (!PyArg_ParseTuple(args, "LL", &a, &b))
         return NULL;
 
     return PyLong_FromLong(a + b);
@@ -18,7 +18,7 @@ static PyMethodDef MathMethods[] = {
 };
 
 static struct PyModuleDef newmathmodule = {
-   PyModuleDef_HEAD_INIT, "math", NULL, -1, MathMethods
+   PyModuleDef_HEAD_INIT, "newmath", NULL, -1, MathMethods
 };
 
 PyMODINIT_FUNC
