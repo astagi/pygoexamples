@@ -64,7 +64,7 @@ func sayHelloSlowly(message *C.char) *C.char {
 //export sayHelloFaster
 func sayHelloFaster(message *C.char, count int) {
     for count > 0 {
-        fmt.Printf("\rHello %v", C.GoString(message))
+        fmt.Printf(fmt.Sprintf("\rHello %v", C.GoString(message)))
         count -= 1
     }
 }
