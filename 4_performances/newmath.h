@@ -79,6 +79,12 @@ extern PyObject* sum(PyObject* p0, PyObject* p1);
 
 extern PyObject* listsum(PyObject* p0, PyObject* p1);
 
+extern GoString sayHello(GoString p0);
+
+extern char* sayHelloSlowly(char* p0);
+
+extern void sayHelloFaster(char* p0, GoInt p1);
+
 #ifdef __cplusplus
 }
 #endif
