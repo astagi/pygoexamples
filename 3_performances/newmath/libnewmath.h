@@ -1,6 +1,6 @@
 /* Created by "go tool cgo" - DO NOT EDIT. */
 
-/* package _/Users/astagi/lotrek/pygoexamples/4_performances/newmath */
+/* package _/Users/astagi/lotrek/pygoexamples/3_performances/newmath */
 
 
 #line 1 "cgo-builtin-prolog"
@@ -17,7 +17,7 @@ typedef struct { const char *p; ptrdiff_t n; } _GoString_;
 /* Start of preamble from import "C" comments.  */
 
 
-#line 3 "/Users/astagi/lotrek/pygoexamples/4_performances/newmath/newmath.go"
+#line 3 "/Users/astagi/lotrek/pygoexamples/3_performances/newmath/newmath.go"
 
  #define Py_LIMITED_API
  #include <Python.h>

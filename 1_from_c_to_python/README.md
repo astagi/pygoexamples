@@ -3,3 +3,7 @@
 ## Compile library
 
     ./build.sh
+
+## Try the library
+
+    python trysum.py
