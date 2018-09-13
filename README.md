@@ -5,10 +5,6 @@
 
 ## Chapter 2 - From Go to Python
 
-## Chapter 3 - Use PyBindGen
+## Chapter 3 - Performances
 
-## Chapter 4 - Use lists and arrays
-
-## Chapter 5 - Performances
-
-## Chapter 6 - Threads and performances
+## Chapter 4 - Threads and performances
