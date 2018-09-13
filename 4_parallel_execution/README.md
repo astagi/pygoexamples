@@ -2,10 +2,6 @@
 
 This is a simple example to demonstrate how Go performs great during parallel calculations
 
-## Install Python dependencies
-
-    pip install -r requirements.txt
-
 ## Build the library
 
     ./build.sh
@@ -41,4 +37,4 @@ For the Go implementation run
     Done! My final value is 0
     Time taken in seconds - 3.892970085144043
 
-If you want to know more about GIL https://realpython.com/python-gil/
+If you want to know more about GIL, [go there](https://realpython.com/python-gil/)
