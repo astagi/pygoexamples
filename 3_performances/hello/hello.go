@@ -16,14 +16,7 @@ func sayHello(message string) string {
 
 //export sayHelloSlowly
 func sayHelloSlowly(message *C.char) *C.char {
-
 	return C.CString(fmt.Sprintf("Hello %v", C.GoString(message)))
-
-	// C.GoString(message)
-	// var str *C.char = C.CString("                                ")
-	// C.strcpy(str, C.CString("Hello "))
-	// C.strcat(str, message)
-	// return str
 }
 
 //export sayHelloFaster
