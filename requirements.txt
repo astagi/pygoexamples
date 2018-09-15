@@ -1,3 +1,4 @@
 git+https://github.com/gjcarneiro/pybindgen.git#egg=pybindgen
 Pillow==5.2.0
 pyprof2calltree==1.4.3
+joblib==0.12.5

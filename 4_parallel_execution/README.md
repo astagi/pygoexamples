@@ -22,19 +22,24 @@ For the Go implementation run
 
 ## See yourself
 
-    (perf)➜  performances python threads.py
+    (perf)➜ python threads.py
     Done! My final value is  0
     Done! My final value is  0
     Time taken in seconds - 0.014990091323852539
 
-    (perf)➜  performances python purethreads.py
+    (perf)➜ python purethreads.py
     Done! My final value is 0
     Done! My final value is 0
     Time taken in seconds - 5.691630840301514
 
-    (perf)➜  performances python pureperfthreads.py
+    (perf)➜ python pureperfthreads.py
     Done! My final value is 0
     Done! My final value is 0
-    Time taken in seconds - 3.892970085144043
+    Time taken in seconds - 2.3557422161102295
+
+    (perf)➜ python joblibthreads.py
+    Done! My final value is 0.0
+    Done! My final value is 0.0
+    Time taken in seconds - 2.678595781326294
 
 If you want to know more about GIL, [go there](https://realpython.com/python-gil/)
