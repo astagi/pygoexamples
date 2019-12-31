@@ -9,7 +9,7 @@ def countdown(n):
     print ('Done! My final value is {0}'.format(n))
 
 start = time.time()
-Parallel(n_jobs=2)(delayed(countdown)(COUNT/2) for i in range(2))
+Parallel(n_jobs=2, prefer="threads")(delayed(countdown)(COUNT/2) for i in range(2))
 end = time.time()
 
 print('Time taken in seconds -', end - start)

@@ -1,7 +1,8 @@
 package main
 
 // #cgo pkg-config: python3
-// #define Py_LIMITED_API
+// #cgo LDFLAGS: -L/Library/Frameworks/Python.framework/Versions/3.8/lib -lpython3.8 -ldl -framework CoreFoundation
+// #define PY_SSIZE_T_CLEAN
 // #include <Python.h>
 // int PyArg_ParseTuple_LL(PyObject *, long long *, long long *);
 // int PyArg_ParseTuple_O(PyObject *, PyObject **);
