@@ -18,7 +18,7 @@ Or if you want to see how it performs with multiprocessing, run
 
 For the Go implementation run
 
-    python threads
+    python threads.py
 
 ## See yourself
 
