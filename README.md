@@ -13,6 +13,8 @@ Setup LIBRARY_PATH on your system. For me on Mac is
 export LIBRARY_PATH=/Library/Frameworks/Python.framework/Versions/3.8/lib
 ```
 
+**You may need to change the path and the preamble in any .c file, pay attention!**
+
 ## Install dependencies
 
 If you want to run examples please install Python dependencies in your virtualenv
@@ -37,4 +39,13 @@ so we can use CPython structures and objects (e.g. `C.PyObject`)
 
 ## Chapter 3 - Performances
 
+In this chapter there are two examples:
+
+- Hello: in this example we try to say "hello!" using Python, C extension and Golang
+- Sum: in this example we try to sum numbers from 0 to 900000
+
+At the end of each execution there's the time spent running the code.
+
 ## Chapter 4 - Parallel execution
+
+I love Golang to run parallel code! Python GIL limits parallel execution in Python, in Golang environment there's no limitation! At the end of each execution there's the time spent running the code.
