@@ -21,6 +21,8 @@ main._cgoexpwrap_80580a90e820_sayHello.func1(0xc000048e50)
 	_cgo_gotypes.go:69 +0x51
 main._cgoexpwrap_80580a90e820_sayHello(0x10d4b5de0, 0x7, 0xc00001a0f0, 0xd)
 	_cgo_gotypes.go:71 +0xfd
+
+To bypass this error I need to export GODEBUG=cgocheck=0 to disable dynamic cgo runtime check but this is not the safer thing to do as you can read here https://golang.org/cmd/cgo/#hdr-Passing_pointers
 """
 for i in range (0, 900000):
     print('\r' + say_hello("PyPizza"), end='')
