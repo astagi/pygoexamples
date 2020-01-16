@@ -23,8 +23,18 @@ pip install -r requirements.txt
 
 ## Chapter 1 - From C to Python
 
+In this chapter there's a simple example on how to extend Python using C language. This is a good starting point to see CPython at work with a simple function that sums two numbers.
+
 ## Chapter 2 - From Go to Python
+
+In this chapter there's a simple example on how to extend Python using Go and [cgo](https://golang.org/cmd/cgo/). With cgo we can use any C code using the preamble and `import C` statement
+
+    // #include <stdio.h>
+    // #include <errno.h>
+    import "C"
+
+so we can use CPython structures and objects (e.g. `C.PyObject`)
 
 ## Chapter 3 - Performances
 
-## Chapter 4 - Threads and performances
+## Chapter 4 - Parallel execution
