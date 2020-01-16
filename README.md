@@ -7,9 +7,12 @@ For this experiment you need:
 - Python 3.8 + Python source code
 - Golang 1.13.5
 
-Setup LIBRARY_PATH on your system. For me on Mac is
+Setup `LIBRARY_PATH` and `PKG_CONFIG_PATH` on your system.
+
+For me on Mac is
 
 ```sh
+export PKG_CONFIG_PATH=/Library/Frameworks/Python.framework/Versions/3.8/lib/pkgconfig/
 export LIBRARY_PATH=/Library/Frameworks/Python.framework/Versions/3.8/lib
 ```
 
