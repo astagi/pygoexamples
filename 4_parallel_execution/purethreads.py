@@ -8,8 +8,9 @@ def countdown(n):
         n -= 1
     print ('Done! My final value is {0}'.format(n))
 
-t1 = Thread(target=countdown, args=(COUNT/2,))
-t2 = Thread(target=countdown, args=(COUNT/2,))
+half_count = int(COUNT/2)
+t1 = Thread(target=countdown, args=(half_count,))
+t2 = Thread(target=countdown, args=(half_count,))
 
 start = time.time()
 t1.start()

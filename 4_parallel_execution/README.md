@@ -34,7 +34,7 @@ For the Go implementation run
     (perf)➜ python purethreads.py
     Done! My final value is 0
     Done! My final value is 0
-    Time taken in seconds - 5.691630840301514
+    Time taken in seconds - 3.64015793800354
 
 ### Using multiprocessing Pool
 
@@ -42,5 +42,12 @@ For the Go implementation run
     Done! My final value is 0
     Done! My final value is 0
     Time taken in seconds - 2.3557422161102295
+
+### Using Joblib
+
+    (perf)➜ python joblibthreads.py
+    Done! My final value is 0
+    Done! My final value is 0
+    Time taken in seconds - 2.2867228984832764
 
 If you want to know more about GIL, [go there](https://realpython.com/python-gil/)
