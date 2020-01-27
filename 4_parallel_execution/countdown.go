@@ -1,11 +1,5 @@
 package main
 
-/*
-struct PiumaResult {
-  char* path;
-  char* message;
-} ;
-*/
 import "C"
 
 import (
